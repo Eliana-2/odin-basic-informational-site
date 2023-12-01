@@ -1,0 +1,20 @@
+{
+  "name": "odin-basic-informational-site",
+  "version": "1.0.0",
+  "description": "Node basic informational site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eliana-2/odin-basic-informational-site.git"
+  },
+  "author": "Ellie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eliana-2/odin-basic-informational-site/issues"
+  },
+  "homepage": "https://github.com/Eliana-2/odin-basic-informational-site#readme"
+}
