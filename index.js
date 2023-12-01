@@ -19,11 +19,14 @@ http.createServer((req, res) => {
         res.writeHead(500);
         res.end('Server Error');
       }
-      console.log(err.code === 'ENOENT');
+      console.log(err);
     }
     else {
       let contentType = 'text/html';
       switch(path.extname(reqFilePath)) {
+        case '.css':
+          contentType = 'text/css';
+          break;
         case '.ico':
           contentType = 'image/x-icon';
           break;
